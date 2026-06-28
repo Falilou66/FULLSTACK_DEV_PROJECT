@@ -39,7 +39,7 @@ public class UserController {
     }
 
     @PostMapping("/teller")
-    @PreAuthorize("hasRole('ADMIN')")
+    // @PreAuthorize("hasRole('ADMIN')")
     @Operation(summary = "Creer un teller")
     public ResponseEntity<ApiResponse<UserResponse>> createTeller(
             @Valid @RequestBody CreateUserRequest request,

@@ -1,0 +1,458 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.1)[0;39m
+
+[2m2026-06-28T20:11:37.949Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Starting SamabankCustomerApplication v0.0.1-SNAPSHOT using Java 25.0.2 with PID 74154 (/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-customer-service/target/samabank-customer-service-0.0.1-SNAPSHOT.jar started by falilou in /home/falilou/Bureau/EXAM_DEV_FULLSTACK)
+[2m2026-06-28T20:11:37.952Z[0;39m [32mDEBUG[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Running with Spring Boot v3.4.1, Spring v6.2.1
+[2m2026-06-28T20:11:37.953Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-06-28T20:11:39.839Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-06-28T20:11:40.010Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+[2m2026-06-28T20:11:40.400Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=6f6dd839-0e6a-37fe-8375-a6135c29bfaf
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-customer-service/target/samabank-customer-service-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.34.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2026-06-28T20:11:41.260Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8082 (http)
+[2m2026-06-28T20:11:41.277Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-06-28T20:11:41.277Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2m2026-06-28T20:11:41.327Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-06-28T20:11:41.328Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3290 ms
+[2m2026-06-28T20:11:41.776Z[0;39m [32mDEBUG[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter 'jwtAuthenticationFilter' configured for use
+[2m2026-06-28T20:11:41.776Z[0;39m [32mDEBUG[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.customer.shared.CorrelationIdFilter [0;39m [2m:[0;39m Filter 'correlationIdFilter' configured for use
+[2m2026-06-28T20:11:41.965Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2026-06-28T20:11:42.048Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.6.4.Final
+[2m2026-06-28T20:11:42.091Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2026-06-28T20:11:42.393Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-06-28T20:11:42.424Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-06-28T20:11:42.627Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7120daa6
+[2m2026-06-28T20:11:42.628Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-06-28T20:11:42.671Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2026-06-28T20:11:42.700Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2026-06-28T20:11:43.694Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-06-28T20:11:43.803Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-06-28T20:11:44.290Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.d.j.r.query.QueryEnhancerFactory    [0;39m [2m:[0;39m Hibernate is in classpath; If applicable, HQL parser will be used.
+[2m2026-06-28T20:11:45.990Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-06-28T20:11:46.117Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-auth-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:11:46.206Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-audit-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:11:46.228Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-notification-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:11:46.318Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 49af9295-c3e7-49aa-aa7f-78ec86b462ba
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2026-06-28T20:11:46.338Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mr$InitializeUserDetailsManagerConfigurer[0;39m [2m:[0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2m2026-06-28T20:11:46.949Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoints beneath base path '/actuator'
+[2m2026-06-28T20:11:47.759Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mDiscoveryClientOptionalArgsConfiguration[0;39m [2m:[0;39m Eureka HTTP Client uses RestTemplate.
+[2m2026-06-28T20:11:47.833Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36miguration$LoadBalancerCaffeineWarnLogger[0;39m [2m:[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2m2026-06-28T20:11:47.916Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.n.eureka.InstanceInfoFactory      [0;39m [2m:[0;39m Setting initial instance status as: STARTING
+[2m2026-06-28T20:11:47.946Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Initializing Eureka in region us-east-1
+[2m2026-06-28T20:11:47.951Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2026-06-28T20:11:47.961Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2026-06-28T20:11:47.961Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2026-06-28T20:11:47.961Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2026-06-28T20:11:47.961Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2026-06-28T20:11:47.961Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2026-06-28T20:11:47.962Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: true
+[2m2026-06-28T20:11:47.962Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2026-06-28T20:11:48.460Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2026-06-28T20:11:48.462Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Starting heartbeat executor: renew interval is: 30
+[2m2026-06-28T20:11:48.464Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mc.n.discovery.InstanceInfoReplicator    [0;39m [2m:[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2m2026-06-28T20:11:48.465Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Discovery Client initialized at timestamp 1782677508465 with initial instances count: 0
+[2m2026-06-28T20:11:48.475Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.n.e.s.EurekaServiceRegistry       [0;39m [2m:[0;39m Registering application SAMABANK-CUSTOMER-SERVICE with eureka with status UP
+[2m2026-06-28T20:11:48.477Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Saw local status change event StatusChangeEvent [timestamp=1782677508477, current=UP, previous=STARTING]
+[2m2026-06-28T20:11:48.479Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082: registering service...
+[2m2026-06-28T20:11:48.494Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8082 (http) with context path '/'
+[2m2026-06-28T20:11:48.494Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m [2m:[0;39m Updating port to 8082
+[2m2026-06-28T20:11:48.532Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Started SamabankCustomerApplication in 11.277 seconds (process running for 12.194)
+[2m2026-06-28T20:11:48.546Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082 - registration status: 204
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: false
+[2m2026-06-28T20:12:18.463Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2026-06-28T20:12:18.487Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [reshExecutor-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2026-06-28T20:12:39.613Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mo.s.c.n.e.s.EurekaServiceRegistry       [0;39m [2m:[0;39m Unregistering application SAMABANK-CUSTOMER-SERVICE with eureka with status DOWN
+[2m2026-06-28T20:12:39.613Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Saw local status change event StatusChangeEvent [timestamp=1782677559613, current=DOWN, previous=UP]
+[2m2026-06-28T20:12:39.613Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082: registering service...
+[2m2026-06-28T20:12:39.615Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2026-06-28T20:12:39.618Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2026-06-28T20:12:39.620Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mc.n.d.s.t.d.RedirectingEurekaHttpClient [0;39m [2m:[0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 21 more
+
+[2m2026-06-28T20:12:39.621Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mc.n.d.s.t.d.RetryableEurekaHttpClient   [0;39m [2m:[0;39m Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+[2m2026-06-28T20:12:39.636Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-06-28T20:12:39.637Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mc.n.d.s.t.d.RedirectingEurekaHttpClient [0;39m [2m:[0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+[2m2026-06-28T20:12:39.638Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mc.n.d.s.t.d.RetryableEurekaHttpClient   [0;39m [2m:[0;39m Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+[2m2026-06-28T20:12:39.640Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2026-06-28T20:12:39.638Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+[2m2026-06-28T20:12:39.641Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mc.n.discovery.InstanceInfoReplicator    [0;39m [2m:[0;39m There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+[2m2026-06-28T20:12:39.645Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2026-06-28T20:12:39.647Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Shutting down DiscoveryClient ...
+[2m2026-06-28T20:12:42.648Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Unregistering ...
+[2m2026-06-28T20:12:42.661Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mc.n.d.s.t.d.RedirectingEurekaHttpClient [0;39m [2m:[0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:668)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:625)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:584)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1361)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 38 more
+
+[2m2026-06-28T20:12:42.661Z[0;39m [33m WARN[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mc.n.d.s.t.d.RetryableEurekaHttpClient   [0;39m [2m:[0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connexion refusée
+[2m2026-06-28T20:12:42.662Z[0;39m [31mERROR[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar!/:2.0.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.2.0.jar!/:4.2.0]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.2.0.jar!/:4.2.0]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:668) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:625) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1368) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:584) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1361) ~[spring-beans-6.2.1.jar!/:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219) ~[spring-context-6.2.1.jar!/:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180) ~[spring-context-6.2.1.jar!/:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.4.1.jar!/:3.4.1]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.1.jar!/:6.2.1]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147) ~[spring-boot-3.4.1.jar!/:3.4.1]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-3.4.1.jar!/:3.4.1]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+[2m2026-06-28T20:12:42.663Z[0;39m [32m INFO[0;39m [35m74154[0;39m [2m--- [samabank-customer-service] [ionShutdownHook] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.1)[0;39m
+
+[2m2026-06-28T20:13:30.692Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Starting SamabankCustomerApplication v0.0.1-SNAPSHOT using Java 25.0.2 with PID 75354 (/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-customer-service/target/samabank-customer-service-0.0.1-SNAPSHOT.jar started by falilou in /home/falilou/Bureau/EXAM_DEV_FULLSTACK)
+[2m2026-06-28T20:13:30.695Z[0;39m [32mDEBUG[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Running with Spring Boot v3.4.1, Spring v6.2.1
+[2m2026-06-28T20:13:30.696Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-06-28T20:13:32.678Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-06-28T20:13:32.841Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+[2m2026-06-28T20:13:33.213Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=6f6dd839-0e6a-37fe-8375-a6135c29bfaf
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-customer-service/target/samabank-customer-service-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.34.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2026-06-28T20:13:34.060Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8082 (http)
+[2m2026-06-28T20:13:34.077Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-06-28T20:13:34.077Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2m2026-06-28T20:13:34.121Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-06-28T20:13:34.122Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3338 ms
+[2m2026-06-28T20:13:34.447Z[0;39m [32mDEBUG[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter 'jwtAuthenticationFilter' configured for use
+[2m2026-06-28T20:13:34.447Z[0;39m [32mDEBUG[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.customer.shared.CorrelationIdFilter [0;39m [2m:[0;39m Filter 'correlationIdFilter' configured for use
+[2m2026-06-28T20:13:34.620Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2026-06-28T20:13:34.678Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.6.4.Final
+[2m2026-06-28T20:13:34.713Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2026-06-28T20:13:34.966Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-06-28T20:13:34.996Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-06-28T20:13:35.186Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70b1028d
+[2m2026-06-28T20:13:35.188Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-06-28T20:13:35.218Z[0;39m [33m WARN[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2026-06-28T20:13:35.243Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2026-06-28T20:13:36.053Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-06-28T20:13:36.121Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-06-28T20:13:36.513Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.d.j.r.query.QueryEnhancerFactory    [0;39m [2m:[0;39m Hibernate is in classpath; If applicable, HQL parser will be used.
+[2m2026-06-28T20:13:38.107Z[0;39m [33m WARN[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-06-28T20:13:38.259Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-auth-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:13:38.377Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-audit-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:13:38.407Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.openfeign.FeignClientFactoryBean  [0;39m [2m:[0;39m For 'samabank-notification-service' URL not provided. Will try picking an instance via load-balancing.
+[2m2026-06-28T20:13:38.500Z[0;39m [33m WARN[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 726d743f-8808-4d19-b42f-6a9b8b1ece36
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2026-06-28T20:13:38.516Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mr$InitializeUserDetailsManagerConfigurer[0;39m [2m:[0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2m2026-06-28T20:13:39.010Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoints beneath base path '/actuator'
+[2m2026-06-28T20:13:39.757Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mDiscoveryClientOptionalArgsConfiguration[0;39m [2m:[0;39m Eureka HTTP Client uses RestTemplate.
+[2m2026-06-28T20:13:39.811Z[0;39m [33m WARN[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36miguration$LoadBalancerCaffeineWarnLogger[0;39m [2m:[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2m2026-06-28T20:13:39.895Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.n.eureka.InstanceInfoFactory      [0;39m [2m:[0;39m Setting initial instance status as: STARTING
+[2m2026-06-28T20:13:39.925Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Initializing Eureka in region us-east-1
+[2m2026-06-28T20:13:39.929Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: true
+[2m2026-06-28T20:13:39.940Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2026-06-28T20:13:40.356Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2026-06-28T20:13:40.358Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Starting heartbeat executor: renew interval is: 30
+[2m2026-06-28T20:13:40.360Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mc.n.discovery.InstanceInfoReplicator    [0;39m [2m:[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2m2026-06-28T20:13:40.362Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Discovery Client initialized at timestamp 1782677620362 with initial instances count: 1
+[2m2026-06-28T20:13:40.369Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.c.n.e.s.EurekaServiceRegistry       [0;39m [2m:[0;39m Registering application SAMABANK-CUSTOMER-SERVICE with eureka with status UP
+[2m2026-06-28T20:13:40.370Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Saw local status change event StatusChangeEvent [timestamp=1782677620370, current=UP, previous=STARTING]
+[2m2026-06-28T20:13:40.372Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082: registering service...
+[2m2026-06-28T20:13:40.403Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8082 (http) with context path '/'
+[2m2026-06-28T20:13:40.405Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36m.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m [2m:[0;39m Updating port to 8082
+[2m2026-06-28T20:13:40.458Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-CUSTOMER-SERVICE/172.20.10.6:samabank-customer-service:8082 - registration status: 204
+[2m2026-06-28T20:13:40.464Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [           main] [0;39m[36ms.s.c.SamabankCustomerApplication       [0;39m [2m:[0;39m Started SamabankCustomerApplication in 10.443 seconds (process running for 11.141)
+[2m2026-06-28T20:18:39.943Z[0;39m [32m INFO[0;39m [35m75354[0;39m [2m--- [samabank-customer-service] [rap-executor-%d] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration

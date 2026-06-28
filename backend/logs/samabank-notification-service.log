@@ -1,0 +1,80 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.1)[0;39m
+
+[2m2026-06-28T20:14:39.013Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.SamabankNotificationApplication   [0;39m [2m:[0;39m Starting SamabankNotificationApplication v0.0.1-SNAPSHOT using Java 25.0.2 with PID 76333 (/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-notification-service/target/samabank-notification-service-0.0.1-SNAPSHOT.jar started by falilou in /home/falilou/Bureau/EXAM_DEV_FULLSTACK)
+[2m2026-06-28T20:14:39.016Z[0;39m [32mDEBUG[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.SamabankNotificationApplication   [0;39m [2m:[0;39m Running with Spring Boot v3.4.1, Spring v6.2.1
+[2m2026-06-28T20:14:39.017Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.SamabankNotificationApplication   [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-06-28T20:14:40.579Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-06-28T20:14:40.747Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interface.
+[2m2026-06-28T20:14:41.062Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=b6b9a1e2-ee02-32b5-95a5-d4a0760f0011
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-notification-service/target/samabank-notification-service-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.34.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2026-06-28T20:14:41.949Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8086 (http)
+[2m2026-06-28T20:14:41.981Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-06-28T20:14:41.982Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2m2026-06-28T20:14:42.024Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-06-28T20:14:42.026Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2915 ms
+[2m2026-06-28T20:14:42.401Z[0;39m [32mDEBUG[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter 'jwtAuthenticationFilter' configured for use
+[2m2026-06-28T20:14:42.401Z[0;39m [32mDEBUG[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.shared.CorrelationIdFilter        [0;39m [2m:[0;39m Filter 'correlationIdFilter' configured for use
+[2m2026-06-28T20:14:42.544Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2026-06-28T20:14:42.618Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.6.4.Final
+[2m2026-06-28T20:14:42.655Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2026-06-28T20:14:42.951Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-06-28T20:14:42.979Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-06-28T20:14:43.173Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@564d3940
+[2m2026-06-28T20:14:43.175Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-06-28T20:14:43.211Z[0;39m [33m WARN[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2026-06-28T20:14:43.230Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2026-06-28T20:14:44.054Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-06-28T20:14:44.121Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-06-28T20:14:44.735Z[0;39m [33m WARN[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-06-28T20:14:44.773Z[0;39m [33m WARN[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: d2cd0e36-0b78-49e3-80ed-172d6ba80c35
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2026-06-28T20:14:44.786Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mr$InitializeUserDetailsManagerConfigurer[0;39m [2m:[0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2m2026-06-28T20:14:45.452Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoints beneath base path '/actuator'
+[2m2026-06-28T20:14:45.662Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.v.b.OptionalValidatorFactoryBean    [0;39m [2m:[0;39m Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[2m2026-06-28T20:14:46.245Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mDiscoveryClientOptionalArgsConfiguration[0;39m [2m:[0;39m Eureka HTTP Client uses RestTemplate.
+[2m2026-06-28T20:14:46.308Z[0;39m [33m WARN[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36miguration$LoadBalancerCaffeineWarnLogger[0;39m [2m:[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2m2026-06-28T20:14:46.376Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.c.n.eureka.InstanceInfoFactory      [0;39m [2m:[0;39m Setting initial instance status as: STARTING
+[2m2026-06-28T20:14:46.402Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Initializing Eureka in region us-east-1
+[2m2026-06-28T20:14:46.406Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: true
+[2m2026-06-28T20:14:46.416Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2026-06-28T20:14:46.829Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2026-06-28T20:14:46.832Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Starting heartbeat executor: renew interval is: 30
+[2m2026-06-28T20:14:46.834Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mc.n.discovery.InstanceInfoReplicator    [0;39m [2m:[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2m2026-06-28T20:14:46.836Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Discovery Client initialized at timestamp 1782677686835 with initial instances count: 4
+[2m2026-06-28T20:14:46.842Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.c.n.e.s.EurekaServiceRegistry       [0;39m [2m:[0;39m Registering application SAMABANK-NOTIFICATION-SERVICE with eureka with status UP
+[2m2026-06-28T20:14:46.843Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Saw local status change event StatusChangeEvent [timestamp=1782677686843, current=UP, previous=STARTING]
+[2m2026-06-28T20:14:46.853Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-NOTIFICATION-SERVICE/172.20.10.6:samabank-notification-service:8086: registering service...
+[2m2026-06-28T20:14:46.866Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8086 (http) with context path '/'
+[2m2026-06-28T20:14:46.867Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36m.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m [2m:[0;39m Updating port to 8086
+[2m2026-06-28T20:14:46.903Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [           main] [0;39m[36ms.s.n.SamabankNotificationApplication   [0;39m [2m:[0;39m Started SamabankNotificationApplication in 8.638 seconds (process running for 9.369)
+[2m2026-06-28T20:14:46.923Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-NOTIFICATION-SERVICE/172.20.10.6:samabank-notification-service:8086 - registration status: 204
+[2m2026-06-28T20:19:46.418Z[0;39m [32m INFO[0;39m [35m76333[0;39m [2m--- [samabank-notification-service] [rap-executor-%d] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration

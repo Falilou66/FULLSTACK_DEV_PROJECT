@@ -1,0 +1,9 @@
+# lister le processus qui utilise un port
+sudo lsof -i :8000
+
+# ou plus moderne
+sudo ss -tulpn | grep :8000
+
+# ou encore 
+netstat -tulpn | grep :8000
+

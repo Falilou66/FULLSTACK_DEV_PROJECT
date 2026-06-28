@@ -1,0 +1,86 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.1)[0;39m
+
+[2m2026-06-28T20:14:21.916Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.audit.SamabankAuditApplication      [0;39m [2m:[0;39m Starting SamabankAuditApplication v0.0.1-SNAPSHOT using Java 25.0.2 with PID 76047 (/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-audit-service/target/samabank-audit-service-0.0.1-SNAPSHOT.jar started by falilou in /home/falilou/Bureau/EXAM_DEV_FULLSTACK)
+[2m2026-06-28T20:14:21.920Z[0;39m [32mDEBUG[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.audit.SamabankAuditApplication      [0;39m [2m:[0;39m Running with Spring Boot v3.4.1, Spring v6.2.1
+[2m2026-06-28T20:14:21.921Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.audit.SamabankAuditApplication      [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-06-28T20:14:23.529Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-06-28T20:14:23.682Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+[2m2026-06-28T20:14:24.042Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=5b561224-edea-33e7-a1a4-92b57aaa839d
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-audit-service/target/samabank-audit-service-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.34.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2026-06-28T20:14:24.888Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8085 (http)
+[2m2026-06-28T20:14:24.917Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-06-28T20:14:24.917Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2m2026-06-28T20:14:24.954Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-06-28T20:14:24.955Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2940 ms
+[2m2026-06-28T20:14:25.293Z[0;39m [32mDEBUG[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.a.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter 'jwtAuthenticationFilter' configured for use
+[2m2026-06-28T20:14:25.293Z[0;39m [32mDEBUG[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.audit.shared.CorrelationIdFilter    [0;39m [2m:[0;39m Filter 'correlationIdFilter' configured for use
+[2m2026-06-28T20:14:25.437Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2026-06-28T20:14:25.497Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.6.4.Final
+[2m2026-06-28T20:14:25.531Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2026-06-28T20:14:25.848Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-06-28T20:14:25.878Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-06-28T20:14:26.077Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c8dea0b
+[2m2026-06-28T20:14:26.079Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-06-28T20:14:26.119Z[0;39m [33m WARN[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2026-06-28T20:14:26.140Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2026-06-28T20:14:26.936Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-06-28T20:14:27.000Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-06-28T20:14:27.362Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.d.j.r.query.QueryEnhancerFactory    [0;39m [2m:[0;39m Hibernate is in classpath; If applicable, HQL parser will be used.
+[2m2026-06-28T20:14:28.575Z[0;39m [33m WARN[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-06-28T20:14:28.613Z[0;39m [33m WARN[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 4559d9b7-a50b-421d-9c9f-21812fdde5ee
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2026-06-28T20:14:28.629Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mr$InitializeUserDetailsManagerConfigurer[0;39m [2m:[0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2m2026-06-28T20:14:29.284Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoints beneath base path '/actuator'
+[2m2026-06-28T20:14:29.470Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.v.b.OptionalValidatorFactoryBean    [0;39m [2m:[0;39m Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[2m2026-06-28T20:14:30.077Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mDiscoveryClientOptionalArgsConfiguration[0;39m [2m:[0;39m Eureka HTTP Client uses RestTemplate.
+[2m2026-06-28T20:14:30.159Z[0;39m [33m WARN[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36miguration$LoadBalancerCaffeineWarnLogger[0;39m [2m:[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2m2026-06-28T20:14:30.232Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.c.n.eureka.InstanceInfoFactory      [0;39m [2m:[0;39m Setting initial instance status as: STARTING
+[2m2026-06-28T20:14:30.263Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Initializing Eureka in region us-east-1
+[2m2026-06-28T20:14:30.267Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Disable delta property : false
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Single vip registry refresh property : null
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Force full registry fetch : false
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application is null : false
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Registered Applications size is zero : true
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Application version is -1: true
+[2m2026-06-28T20:14:30.276Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Getting all instance registry info from the eureka server
+[2m2026-06-28T20:14:30.759Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m The response status is 200
+[2m2026-06-28T20:14:30.762Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Starting heartbeat executor: renew interval is: 30
+[2m2026-06-28T20:14:30.765Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mc.n.discovery.InstanceInfoReplicator    [0;39m [2m:[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2m2026-06-28T20:14:30.767Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Discovery Client initialized at timestamp 1782677670767 with initial instances count: 4
+[2m2026-06-28T20:14:30.777Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.c.n.e.s.EurekaServiceRegistry       [0;39m [2m:[0;39m Registering application SAMABANK-AUDIT-SERVICE with eureka with status UP
+[2m2026-06-28T20:14:30.779Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m Saw local status change event StatusChangeEvent [timestamp=1782677670779, current=UP, previous=STARTING]
+[2m2026-06-28T20:14:30.781Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-AUDIT-SERVICE/172.20.10.6:samabank-audit-service:8085: registering service...
+[2m2026-06-28T20:14:30.797Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8085 (http) with context path '/'
+[2m2026-06-28T20:14:30.799Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36m.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m [2m:[0;39m Updating port to 8085
+[2m2026-06-28T20:14:30.829Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [foReplicator-%d] [0;39m[36mcom.netflix.discovery.DiscoveryClient   [0;39m [2m:[0;39m DiscoveryClient_SAMABANK-AUDIT-SERVICE/172.20.10.6:samabank-audit-service:8085 - registration status: 204
+[2m2026-06-28T20:14:30.845Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [           main] [0;39m[36ms.s.audit.SamabankAuditApplication      [0;39m [2m:[0;39m Started SamabankAuditApplication in 9.686 seconds (process running for 10.368)
+[2m2026-06-28T20:19:30.278Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [rap-executor-%d] [0;39m[36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2026-06-28T20:19:30.639Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [nio-8085-exec-3] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2026-06-28T20:19:30.640Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [nio-8085-exec-3] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2026-06-28T20:19:30.642Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [nio-8085-exec-3] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2026-06-28T20:19:30.789Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [         task-1] [0;39m[36msn.samabank.audit.service.AuditService  [0;39m [2m:[0;39m [AUDIT] LOGIN_FAILED — actor:6cf615bb-f804-43a0-ae95-d8f5d2a97e95 resource:User/6cf615bb-f804-43a0-ae95-d8f5d2a97e95
+[2m2026-06-28T20:19:44.380Z[0;39m [32m INFO[0;39m [35m76047[0;39m [2m--- [samabank-audit-service] [         task-2] [0;39m[36msn.samabank.audit.service.AuditService  [0;39m [2m:[0;39m [AUDIT] LOGIN_FAILED — actor:15aef9cf-3580-43b4-9c04-c87ba2622490 resource:User/15aef9cf-3580-43b4-9c04-c87ba2622490
