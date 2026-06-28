@@ -1,0 +1,17 @@
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/SamabankStatsApplication.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/config/OpenAPIConfig.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/config/SamaBankProperties.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/config/SecurityConfig.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/controller/StatController.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/dto/AdminDashboardStats.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/dto/CustomerDashboardStats.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/dto/TellerDashboardStats.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/repository/StatRepository.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/security/JwtAuthenticationFilter.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/security/JwtService.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/service/StatService.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/shared/ApiResponse.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/shared/BusinessException.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/shared/CorrelationIdFilter.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/shared/GlobalExceptionHandler.java
+/home/falilou/Bureau/EXAM_DEV_FULLSTACK/backend/samabank-stats-service/src/main/java/sn/samabank/stats/shared/SecurityContextHelper.java
